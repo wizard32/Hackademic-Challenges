@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<challenge>
+    <title>Challenge 1</title>
+    <author>
+        Liatsis Fotis <liatsisfotis at gmail dot com>
+    </author>
+    <category>Crypto</category>
+    <description>
+        <![CDATA[
+       Cryptography is the practice and study of techniques for secure communication in the presence of third parties,  
+	   <br /> <br /> Your objective is to find the encrypted message in the <a href="index.php" target="_blank">text</a> and using the appropriate key de-crypt it with the GOST encryption method.]]>
+    </description>
+</challenge>

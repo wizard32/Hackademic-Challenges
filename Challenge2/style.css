@@ -1,0 +1,362 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+h3 {
+    font-size: 150%;
+    font-weight: 400;
+    margin: 46px 0 30px 10px;
+}
+
+
+a.button_dark, a.button_light {
+    background-color: #e66e0d;
+    display: block;
+    width: 90px;
+    padding: 15px 30px 0 30px;
+    height: 33px;
+    text-align: center;
+    margin: auto;
+    z-index: 2;
+    position: relative;
+    color: #fff;
+    font-size: 11pt;
+    font-weight: 400;
+    text-decoration: none;
+    letter-spacing: 1px;
+    text-shadow: 0px 1px #d72d05;
+    border: 5px solid rgba(0, 0, 0, .2);
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    box-shadow: inset 0px 1px #f08715;
+    
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+
+a:hover.button_dark, a:hover._button_light {
+    background-color: #d76203;
+    text-shadow: 0px -1px #a70d00;
+    border: 5px solid rgba(0, 0, 0, .4);
+    -webkit-background-clip: padding-box; /* for Safari */
+    background-clip: padding-box;
+    box-shadow: inset 0px 1px 2px #c14d00;
+}
+
+
+
+hr.cleanit {
+    visibility: hidden;
+    clear: both;
+    margin-bottom: 20px;
+}
+
+
+/* ---------- Header ---------- */
+
+#header {
+    width: 100%;
+    height: 75px;
+    background-color: #fff;
+}
+
+#header_in {
+    width: 960px;
+    padding: 0px 10px 0 10px;
+    height: 75px;
+    margin: auto;
+    position: relative;
+}
+
+#header_in h1 {
+    font-size: 15pt;
+    letter-spacing: 1px;
+    float: left;
+    padding-top: 25px;
+}
+
+#header_in h1 a {
+    text-decoration: none;
+    color: #111;
+    font-weight: 100;
+}
+
+#header_in h1 a b {
+    font-weight: 600;
+}
+
+/* ----- Menu ----- */
+    
+    #menu {
+	position: absolute;
+	right: 00px;
+	font-size: 95%;
+	background: url('img/menu_cut.jpg') no-repeat scroll right;
+	margin-right: 0px;
+    }
+    
+    
+    #menu ul li {
+	float: left;
+	display: inline;
+    }
+    
+    #menu ul li a {
+	text-decoration: none;
+	color: #101115;
+	text-transform: uppercase;
+	font-weight: 300;
+	letter-spacing: 1px;
+	display: block;
+	padding: 29px 40px 0 40px;
+	height: 46px;
+	background-color: #fff;
+    }
+    
+    
+    #menu ul li a.active {
+	background: none;
+	color: #fff;
+    }
+    
+    
+/* --- */
+
+
+/* ---------- Main part (slider) ---------- */
+
+
+
+#main_part{
+    width: 100%;
+    height: 465px;
+    background: url('img/banner.jpg') scroll no-repeat center;
+    background-color: #000;
+    border-bottom: 7px solid #e5e5e5;
+}
+
+#main_part_in{
+    width: 960px;
+    margin: auto;
+}
+
+#main_part_in h2{
+    padding-top: 60px;
+    padding-bottom: 1px;
+    font-size: 280%;
+    font-weight: 400;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 0px 1px #000;
+}
+
+#main_part .button_main {
+    margin-top: 60px;
+}
+
+/* ---------- Content ---------- */
+
+#content {
+    width: 960px;
+    margin: auto;
+    padding-top: 40px;
+}
+
+
+    /* ----- thirds / fourths (homepage) / sixths (about)----- */
+
+    .thirds {
+	width: auto;
+	margin: 0 10px 0 10px;
+    }
+    
+    .thirds h3 {
+	margin-top: 0;
+	margin-left: 0;
+	font-size: 150%;
+	font-weight: 300;
+	color: #27292a;
+	margin-bottom: 18px;   
+    }
+    
+    .thirds p {
+	font-size: 100%;
+	color: #37393a;
+	line-height: 160%;
+    }
+    
+        
+    /* --- */
+    
+		
+		    
+    /* --------- Our Work (portfolio stuffs) ---------- */
+		
+
+
+
+
+.about_blok {
+    width: 550px;
+    float: left;
+    margin-right: 80px;
+}
+
+p.about {
+    width: 540px;
+    margin: -17px 0 25px 10px;
+    color: #27292a;
+    font-size: 100%;
+    font-weight: 400;
+    line-height: 165%;
+}
+
+.testimonials {
+    width: 318px;
+    min-height: 80px;
+    float: left;
+    margin-top: 50px;
+}
+
+.testimonials .quote {
+    border: 1px solid #bbb;
+    border-bottom: none;
+    font-size: 90%;
+    font-weight: 400;
+    line-height: 160%;
+    color: #474a4c;
+    padding: 20px 16px 25px 25px;
+}
+
+.testimonials_bottom {
+    display: block;
+    clear: both;
+    width: 318px;
+    height: 20px;
+    background: url('img/quote_bottom.png') no-repeat scroll top;
+    margin-top: -5px;
+}
+
+.testimonials span.by {
+    display: block;
+    width: 318px;
+    text-align: right;
+    font-size: 90%;
+}
+
+/* ---------- Contact ---------- */
+
+form.formit {
+    text-align: center;
+}
+
+.formit input[type="text"] {
+    padding: 15px 20px;
+    height: 20px;
+    width: 230px;
+    border: 1px solid #bbbbbb;
+    margin: 0px 18px 17px 10px;
+    font-size: 75%;
+    color: #010f5f;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+form.formit .button_submit {
+    cursor:pointer;
+    background-color: #e66e0d;
+    width: 200px;
+    height: 38px;
+    color: #fff;
+    font-size: 10pt;
+    font-weight: 400;
+    letter-spacing: 1px;
+    border: 0px solid #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    box-shadow: 0px 0px 0px 1px #dbdbdb;
+    text-shadow: 0px 1px #d72d05;
+}
+
+
+
+/* ---------- Footer ---------- */
+
+
+
+
+#footer {
+    width: 100%;
+    height: 90px;
+    background: url('img/bg_footer.jpg') scroll no-repeat center;
+    background-color: #000;
+    color: #a5a5a5;
+    font-weight: 300;
+    font-size: 90%;
+    margin-top: 60px;
+}
+
+#footer_in {
+    width: 960px;
+    margin: auto;
+    position: relative;
+    padding-top: 50px;
+}
+
+#footer_in p {
+    float: left;
+}
+
+#footer_in a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+/* ---------- Other elements ---------- */
+
+.banner1 {
+    width: 890px;
+    height: 76px;
+    padding: 42px 0 0 50px;
+    margin: auto;
+    margin-bottom: 0px;
+    margin-top: 45px;
+    background: url('img/banner1.jpg') no-repeat scroll;
+    background-color: #000;
+    color: #c3ccd5;
+    position: relative;
+}
+
+.banner1 p {
+    font-weight: 200; 
+    font-size: 20pt;
+    display: block;
+    width: 630px;
+    text-shadow: 0px 1px #000;
+}
+
+.banner1 a.button_dark {
+    width: 100px;
+    position: absolute;
+    right: 42px;
+    top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
